@@ -27,3 +27,8 @@
 .sidebar-list-item ul li {
     border-bottom: 1px solid #fff;
 }
+
+.sidebar-bottom-icons {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
