@@ -54,7 +54,7 @@
 
 .table-slider-init .single-table tr td,
 .table-slider-init .single-table tr th {
-    border-right: 1px solid #abbed6;
+    border-right: 1px solid #abbed6 !important;
 }
 
 /* current slider style */
