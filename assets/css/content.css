@@ -242,7 +242,7 @@ ul.table-accordion-list  ul.show li.show {
 Row color
 */
 
-.table-slider-init .slick-slide.slick-current.slick-active.slick-center>div>div>table>tbody>tr:nth-child(3) {
+/* .table-slider-init .slick-slide.slick-current.slick-active.slick-center>div>div>table>tbody>tr:nth-child(3) {
     background: #fbd7be;
 }
 
@@ -256,7 +256,7 @@ Row color
 
 .table-slider-init .slick-slide.slick-current.slick-active.slick-center>div>div>table>tbody>tr:nth-child(5) {
     background: #fbd7be;
-}
+} */
 
 
 /* Row style*/
