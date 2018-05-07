@@ -168,7 +168,7 @@
     function tableAccordin() {
         var rootColl = $('[data-root-collapse]');
         // hide block area
-        $('.collapse-block-area').hide();
+        //$('.collapse-block-area').hide();
         rootColl.each(function (i, li) {
             $(li).click(function () {
                 var rootCollItem = this.getAttribute('data-root-collapse');
