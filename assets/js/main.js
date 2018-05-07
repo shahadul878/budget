@@ -185,11 +185,12 @@
                         }
                     })
                     // hide block area
-                    $('.collapse-block-area').hide();
+                    //$('.collapse-block-area').hide();
 
                 } else {
                     // show block area
-                    $('.collapse-block-area').show();
+                    //$('.collapse-block-area').show();
+                    return null;
                 }
 
 
