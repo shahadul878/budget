@@ -84,6 +84,7 @@
             infinite: true,
             autoplay: false,
             autoplaySpeed: 5000,
+            focusOnSelect: true,
             centerMode: false,
             responsive: [{
                 breakpoint: 600,
