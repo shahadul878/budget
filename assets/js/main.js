@@ -84,8 +84,7 @@
             infinite: true,
             autoplay: false,
             autoplaySpeed: 5000,
-            centerMode: true,
-            adaptiveHeight: true,
+            centerMode: false,
             responsive: [{
                 breakpoint: 600,
                 settings: {
@@ -113,62 +112,13 @@
             }]
         })
 
-        // Add Animation Globaly
-        slider
-            .find('[data-animation]')
-            .each(function () {
-                var animation = $(this).data('animation');
-                $(this).addClass(animation + ' animated')
-            })
-
-        // Animation Duration
-        slider
-            .find('[data-duration]')
-            .each(function () {
-                var duration = $(this).data('duration');
-                $(this).css('animation-duration', duration);
-            })
-
-        // Animation Dealy
-        slider
-            .find('[data-delay]')
-            .each(function () {
-                var delay = $(this).data('delay');
-                $(this).css('animation-delay', delay);
-            })
-
-        // Before Change
-        slider.on('beforeChange', function (event) {
-            var layer = $(event.target).find('[data-animation]');
-
-            layer.each(function () {
-                var animation = $(this).data('animation');
-                $(this)
-                    .removeClass(animation + ' animated')
-                    .css('opacity', '0');
-            })
-        })
-        // After Change
-        slider.on('afterChange', function (event) {
-            var layer = $(event.target)
-                .find('.slick-slide.slick-active')
-                .find('[data-animation]');
-
-            layer.each(function () {
-                var animation = $(this).data('animation');
-                $(this)
-                    .addClass(animation + ' animated')
-                    .css('opacity', '1');
-            })
-        })
-
     }
 
     // Accordion
     function tableAccordin() {
         var rootColl = $('[data-root-collapse]');
         // hide block area
-        //$('.collapse-block-area').hide();
+        $('.collapse-block-area').hide();
         rootColl.each(function (i, li) {
             $(li).click(function () {
                 var rootCollItem = this.getAttribute('data-root-collapse');
@@ -185,11 +135,11 @@
                         }
                     })
                     // hide block area
-                    //$('.collapse-block-area').hide();
+                    $('.collapse-block-area').hide();
 
                 } else {
                     // show block area
-                    //$('.collapse-block-area').show();
+                    $('.collapse-block-area').show();
                     return null;
                 }
 

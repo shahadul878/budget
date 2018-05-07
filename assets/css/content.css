@@ -49,24 +49,22 @@
 }
 
 .table-slider-init .single-table tr:not(:last-child) {
-    border-bottom: 1px solid #e1e5ea;
+    border-bottom: 1px solid #abbed6;
 }
 
 .table-slider-init .single-table tr td:not(:last-child),
 .table-slider-init .single-table tr th:not(:last-child) {
-    border-right: 1px solid #e1e5ea;
+    border-right: 1px solid #abbed6;
 }
 
 /* current slider style */
 
 .table-slider-init .slick-slide.slick-current {
     box-shadow: 0px 0px 25px 5px #dedede;
-    position: relative;
+    /* position: relative; */
     z-index: 999 !important;
-    width: 5% !important;
+    /* width: 5% !important; */
 }
-
-
 
 .table-slider-init .slick-slide.slick-current .table-title {
     color: #f5a46c;
@@ -152,7 +150,7 @@
 /* Accordion Slider in Table */
 
 .table-slider-init .single-table tr.collapse.show {
-    background: #9aaaba;
+    background: #9aaaba47;
 }
 
 /* Customize slick */
@@ -225,17 +223,14 @@
     margin-right: 10px;
 }
 
-
 /*Collapse Cat*/
 
-ul.table-accordion-list  ul.show {
+ul.table-accordion-list ul.show {
     margin-left: 10px;
-    
 }
 
-ul.table-accordion-list  ul.show li.show {
+ul.table-accordion-list ul.show li.show {
     margin-left: 20px;
-    
 }
 
 /**
@@ -258,6 +253,4 @@ Row color
     background: #fbd7be;
 } */
 
-
 /* Row style*/
-
