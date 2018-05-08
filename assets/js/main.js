@@ -23,7 +23,7 @@
     $(document).ready(function () {
         animations();
         mobileMenu();
-        tableAccordin();
+        //tableAccordin();
 
     });
 
@@ -116,7 +116,7 @@
     }
 
     // Accordion
-    function tableAccordin() {
+ /*   function tableAccordin() {
         var rootColl = $('[data-root-collapse]');
         // hide block area
         $('.collapse-block-area').hide();
@@ -151,6 +151,6 @@
 
     }
 
-
+*/
 
 })(jQuery); // End of use strict
