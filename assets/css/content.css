@@ -264,3 +264,7 @@ Row color
 .table-slider-init .slick-slide.slick-active {
     width: 250px !important;
 }
+
+.table-slider-init .slick-list.draggable {
+    padding: 0 !important;
+}
