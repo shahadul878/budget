@@ -176,14 +176,14 @@
                             $(t).trigger("click");
                         }
                     })
-                    // hide block area
-                   // $('.collapse-block-area').hide();
+                    // show block area
+                  $('.collapse-block-area').show();
 
                 } else {
                     // show block area
-                  // $('.collapse-block-area').show();
-                   //return null;
-                }*
+                   $('.collapse-block-area').show();
+                  return null;
+                }
 
 
             });
