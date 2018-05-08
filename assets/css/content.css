@@ -268,3 +268,6 @@ Row color
 .table-slider-init .slick-list.draggable {
     padding: 0 !important;
 }
+
+/**Padding Offf**/
+body > main > div > div > div.col-lg-2 {padding-right: 0;}/****/
