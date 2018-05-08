@@ -166,7 +166,7 @@
                 var rootCollItem = this.getAttribute('data-root-collapse');
                 var expand = this.getAttribute('aria-expanded');
 
-              /*  if (expand == 'true') {
+              if (expand == 'true') {
                     var trigger = $("." + rootCollItem);
 
                     trigger.each(function (i, t) {
@@ -181,9 +181,9 @@
 
                 } else {
                     // show block area
-                    $('.collapse-block-area').show();
-                    return null;
-                }*/
+                  // $('.collapse-block-area').show();
+                   //return null;
+                }*
 
 
             });
