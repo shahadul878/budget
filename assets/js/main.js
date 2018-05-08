@@ -87,12 +87,22 @@
             focusOnSelect: true,
             centerMode: true,
             responsive: [{
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 1,
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        centerMode: false
 
+                    }
+                },
+                {
+                    breakpoint: 991,
+                    settings: {
+                        slidesToShow: 2,
+                        centerMode: false
+
+                    }
                 }
-            }]
+            ]
         })
         sliderNav.slick({
             slidesToShow: 12,
@@ -116,7 +126,7 @@
     }
 
     // Accordion
- /*   function tableAccordin() {
+    /*   function tableAccordin() {
         var rootColl = $('[data-root-collapse]');
         // hide block area
         $('.collapse-block-area').hide();
@@ -152,12 +162,12 @@
     }
 
 */
-    
-    
+
+
     /**Acco**/
-    
-       // Accordion
-   function tableAccordin() {
+
+    // Accordion
+    function tableAccordin() {
         var rootColl = $('[data-root-collapse]');
         // hide block area
         $('.collapse-block-area').hide();
@@ -166,7 +176,7 @@
                 var rootCollItem = this.getAttribute('data-root-collapse');
                 var expand = this.getAttribute('aria-expanded');
 
-              if (expand == 'true') {
+                if (expand == 'true') {
                     var trigger = $("." + rootCollItem);
 
                     trigger.each(function (i, t) {
@@ -177,11 +187,11 @@
                         }
                     })
                     // show block area
-                  $('.collapse-block-area').show();
+                    $('.collapse-block-area').show();
 
                 } else {
-                  
-                  return null;
+
+                    return null;
                 }
 
 
