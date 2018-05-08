@@ -23,7 +23,7 @@
     $(document).ready(function () {
         animations();
         mobileMenu();
-        //tableAccordin();
+        tableAccordin();
 
     });
 
@@ -152,5 +152,44 @@
     }
 
 */
+    
+    
+    /**Acco**/
+    
+       // Accordion
+   function tableAccordin() {
+        var rootColl = $('[data-root-collapse]');
+        // hide block area
+        $('.collapse-block-area').hide();
+        rootColl.each(function (i, li) {
+            $(li).click(function () {
+                var rootCollItem = this.getAttribute('data-root-collapse');
+                var expand = this.getAttribute('aria-expanded');
+
+                if (expand == 'true') {
+                    var trigger = $("." + rootCollItem);
+
+                    trigger.each(function (i, t) {
+                        var triggerExpand = t.getAttribute('aria-expanded');
+                        if (triggerExpand == 'true') {
+
+                            $(t).trigger("click");
+                        }
+                    })
+                    // hide block area
+                   // $('.collapse-block-area').hide();
+
+                } else {
+                    // show block area
+                    $('.collapse-block-area').show();
+                    return null;
+                }
+
+
+            });
+        })
+
+
+    }
 
 })(jQuery); // End of use strict
