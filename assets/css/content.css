@@ -271,3 +271,8 @@ Row color
 
 /**Padding Offf**/
 body > main > div > div > div.col-lg-2 {padding-right: 0;}/****/
+
+
+.collapse-block-area.py-3 {
+    display: block !important;
+}
