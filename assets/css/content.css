@@ -254,3 +254,7 @@ Row color
 } */
 
 /* Row style*/
+
+#table_accordion > ul > li:nth-child(11) {
+    padding-bottom: 13px;
+}
