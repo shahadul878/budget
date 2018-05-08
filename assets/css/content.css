@@ -258,3 +258,9 @@ Row color
 #table_accordion > ul > li:nth-child(11) {
     padding-bottom: 13px;
 }
+
+
+/**Slick Active Slide Width**/
+.table-slider-init .slick-slide.slick-active {
+    width: 250px !important;
+}
