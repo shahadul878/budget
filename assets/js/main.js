@@ -180,8 +180,7 @@
                   $('.collapse-block-area').show();
 
                 } else {
-                    // show block area
-                   $('.collapse-block-area').show();
+                  
                   return null;
                 }
 
