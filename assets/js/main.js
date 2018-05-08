@@ -85,7 +85,7 @@
             autoplay: false,
             autoplaySpeed: 5000,
             focusOnSelect: true,
-            centerMode: false,
+            centerMode: true,
             responsive: [{
                 breakpoint: 600,
                 settings: {
