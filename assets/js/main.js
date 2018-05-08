@@ -92,7 +92,8 @@
                         slidesToShow: 1,
                         centerMode: false
 
-                    }
+                    },
+                    arrows: false,
                 },
                 {
                     breakpoint: 991,
